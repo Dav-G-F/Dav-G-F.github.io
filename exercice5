@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<link href="https://fonts.googleapis.com/css2?family=Cinzel&display=swap" rel="stylesheet">
+		<style>
+    body {
+      font-family: 'Cinzel', serif;
+      background-image: url('https://i.makeagif.com/media/7-21-2015/unmq1Q.gif');
+      color:white;
+      text-align:center;
+      font-weight: bold
+    .vertical-menu {
+      width: 50px; 
+    }
+
+    .vertical-menu a {
+      background-color: #000000;
+      color: white; 
+      display: block; 
+      padding: 12px; 
+      text-decoration: none;
+    }
+
+    .vertical-menu a:hover {
+     background-color: #929; 
+    }
+    </style>
+    <div class="vertical-menu">
+      <a href="https://en.wikipedia.org/wiki/Victor_Hugo">Victor Hugo</a>
+      <a href="#stanza1">Stanza 1</a>
+      <a href="#stanza2">Stanza 2</a>
+      <a href="#stanza3">Stanza 3</a>
+    </div>
+
+		<title>Exercice 5</title>
+	</head>
+	 <body>
+	
+
+		<a href="https://fr.wikipedia.org/wiki/Demain,_d%C3%A8s_l%27aube%E2%80%A6"><h1>Demain Dès L'aube</h1></a>
+	  <h4 style= "font-style:italic;">Par Victor Hugo</h4>
+	  <a name="stanza1"></a>
+	  <p>Demain, dès l’aube, à l’heure où blanchit la campagne,</p>
+    <p>Je partirai. Vois-tu, je sais que tu m’attends.</p>
+    <p>J’irai par la forêt, j’irai par la montagne.</p>
+    <p>Je ne puis demeurer loin de toi plus longtemps.</p>
+    <p>-</p>
+    <a name="stanza2"></a>
+    <p>Je marcherai les yeux fixés sur mes pensées,</p>
+    <p>Sans rien voir au dehors, sans entendre aucun bruit,</p>
+    <p>Seul, inconnu, le dos courbé, les mains croisées,</p>
+    <p>Triste, et le jour pour moi sera comme la nuit.</p>
+    <p>-</p>
+    <a name="stanza3"></a>
+    <p>Je ne regarderai ni l’or du soir qui tombe,</p>
+    <p>Ni les voiles au loin descendant vers Harfleur,</p>
+    <p>Et quand j’arriverai, je mettrai sur ta tombe</p>
+    <p>Un bouquet de houx vert et de bruyère en fleur.</p>
+    
+    <p><a href="index.html">Index</a></p>
+</html>
