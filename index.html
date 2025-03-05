@@ -13,6 +13,17 @@
             background-color: antiquewhite;
             font-weight: bold;
             text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+
+        .content-wrapper {
+            border: 10px solid saddlebrown; 
+            border-radius: 20px; 
+            padding: 20px; 
+            margin: 20px auto; 
+            max-width: 1200px; 
+            background-color: sandybrown; 
         }
 
         .vertical-menu {
@@ -29,34 +40,31 @@
             display: block;
             padding: 20px;
             text-decoration: none;
-            width: 100%; 
-            
+            width: 100%;
         }
 
         .vertical-menu a:hover {
             background-color: burlywood;
-            width: 110%; 
+            width: 110%;
         }
 
-        
         .container {
             display: flex;
-            justify-content: center;
-            flex-wrap: wrap;
-            margin-top: 30px;
+            justify-content: space-between;
             gap: 20px;
             padding: 0 20px;
+            margin-top: 30px;
         }
 
         .column {
             flex: 1;
-            min-width: 150px;
+            min-width: 200px;
         }
 
         iframe {
             width: 100%;
             max-width: 500px;
-            height: 300px;
+            height: 200px;
             border: 10px solid saddlebrown;
             margin-bottom: 20px;
         }
@@ -66,21 +74,27 @@
 <body>
     <h1 style="border: 10px solid saddlebrown">Bienvenue au site web de Dav-g-f</h1>
     
-    <div class="container">
-        <div class="column">
-            <div class="vertical-menu">
-                <a href="#">À Propos De Moi</a>
-                <a href="#">Poème</a>
-                <a href="#">Voyage De Rève</a>
-                <a href="#">Exercices D'Apprentissage</a>
+    
+    <div class="content-wrapper">
+        <div class="container">
+            <div class="column">
+                <div class="vertical-menu">
+                    <a href="#">À Propos De Moi</a>
+                    <a href="#">Poème</a>
+                    <a href="#">Voyage De Rève</a>
+                    <a href="#">Exercices D'Apprentissage</a>
+                </div>
             </div>
-        </div>
 
-        <div class="column">
-            <iframe src=""></iframe>
-        </div>
-        <div class="column">
-            <iframe src=""></iframe>
+            <div class="column">
+                <h4 style="border: 10px solid saddlebrown"> Ma Première Page Index!</h4>
+                <iframe src="https://dav-g-f.github.io/indexercice.html"></iframe>
+            </div>
+
+            <div class="column">
+                <h4 style="border: 10px solid saddlebrown">Mon Premier Exercice!</h4>
+                <iframe src="https://dav-g-f.github.io/exercice1.html"></iframe>
+            </div>
         </div>
     </div>
 
