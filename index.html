@@ -1,48 +1,89 @@
 <!DOCTYPE html>
-
 <html>
 
-	<head>
-		<meta charset="UTF-8"> <!-- Caractères spéciaux -->
-		<title>PAGE INDEX</title> <!-- Titre de l'onglet -->
+<head>
+    <meta charset="UTF-8"> <!-- Caractères spéciaux -->
+    <title>PAGE INDEX</title> <!-- Titre de l'onglet -->
     <link rel="icon" type="image/x-icon" href="https://banner2.cleanpng.com/20190125/wpj/kisspng-computer-icons-html5-scalable-vector-graphics-port-socialpack-chocolate-icon-1713904721396.webp"> <!-- ajout css integrer d'image de l'onglet-->
-	  <link href="https://fonts.googleapis.com/css2?family=Cinzel&display=swap" rel="stylesheet"> <!-- Ajout css integrer pour le style de l'écriture -->
-	  <style>
-	  html {
-	     scroll-behavior: smooth;
-	   }
-	  body {
-	    font-family= 'Cinzel', serif;
-	    color:black;
-	    background-color:antiquewhite;
-	    font-weight: bold;
-	    text-align: center;
-	   .vertical-menu {
-	     width:100px;
-	     font-family= 'Cinzel', serif;
-	   }
-	  .vertical-menu a {
-	    font-family= 'Cinzel', serif;
-	    background-color:bisque;
-	    color:black;
-	    display:block;
-	    padding:10px;
-	    text-decoration: none;
-	    width:100;
-	  }  
-	     .vertical-menu a:hover {
-	       font-family= 'Cinzel', serif;
-	       background-color:burlywood;
-	       padding:20px;
-	       width:110px;
-	     }
-	     </style>
-	     <div class="vertical-menu">
-	       <a href="">hi</a>
-	       <a href="">hi</a>
-	       <a href="">hi</a>
-	       <a href="">hi</a>
-	     </div>
-	     <iframe src="exercice5.html" width= 750px height= 250px>
-	       
-	</head>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel&display=swap" rel="stylesheet"> <!-- Ajout css integrer pour le style de l'écriture -->
+    <style>
+        body {
+            font-family: 'Cinzel', serif;
+            color: black;
+            background-color: antiquewhite;
+            font-weight: bold;
+            text-align: center;
+        }
+
+        .vertical-menu {
+            width: 150px;
+            font-family: 'Cinzel', serif;
+            border: 10px solid saddlebrown;
+            margin: 20px auto;
+        }
+
+        .vertical-menu a {
+            font-family: 'Cinzel', serif;
+            background-color: bisque;
+            color: black;
+            display: block;
+            padding: 20px;
+            text-decoration: none;
+            width: 100%; 
+            
+        }
+
+        .vertical-menu a:hover {
+            background-color: burlywood;
+            width: 110%; 
+        }
+
+        
+        .container {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin-top: 30px;
+            gap: 20px;
+            padding: 0 20px;
+        }
+
+        .column {
+            flex: 1;
+            min-width: 150px;
+        }
+
+        iframe {
+            width: 100%;
+            max-width: 500px;
+            height: 300px;
+            border: 10px solid saddlebrown;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 style="border: 10px solid saddlebrown">Bienvenue au site web de Dav-g-f</h1>
+    
+    <div class="container">
+        <div class="column">
+            <div class="vertical-menu">
+                <a href="#">À Propos De Moi</a>
+                <a href="#">Poème</a>
+                <a href="#">Voyage De Rève</a>
+                <a href="#">Exercices D'Apprentissage</a>
+            </div>
+        </div>
+
+        <div class="column">
+            <iframe src=""></iframe>
+        </div>
+        <div class="column">
+            <iframe src=""></iframe>
+        </div>
+    </div>
+
+</body>
+
+</html>
