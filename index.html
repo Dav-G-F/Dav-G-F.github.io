@@ -30,6 +30,7 @@
             width: 150px;
             font-family: 'Cinzel', serif;
             border: 10px solid saddlebrown;
+            border-radius: 10px;
             margin: 20px auto;
         }
 
@@ -41,11 +42,12 @@
             padding: 20px;
             text-decoration: none;
             width: 100%;
+            transition: transform 0.3s ease, filter 0.3s ease;
         }
 
         .vertical-menu a:hover {
             background-color: burlywood;
-            width: 110%;
+            transform: scale(1.05);
         }
 
         .container {
@@ -66,33 +68,34 @@
             max-width: 500px;
             height: 200px;
             border: 10px solid saddlebrown;
+            border-radius: 10px;
             margin-bottom: 20px;
         }
     </style>
 </head>
 
 <body>
-    <h1 style="border: 10px solid saddlebrown">Bienvenue au site web de Dav-g-f</h1>
+    <h1 style="border: 10px solid saddlebrown; border-radius: 20px;">Bienvenue au site web de Dav-g-f</h1>
     
     
     <div class="content-wrapper">
         <div class="container">
             <div class="column">
                 <div class="vertical-menu">
-                    <a href="#">À Propos De Moi</a>
-                    <a href="#">Poème</a>
-                    <a href="#">Voyage De Rève</a>
-                    <a href="#">Exercices D'Apprentissage</a>
+                    <a href="about.html">À Propos De Moi</a>
+                    <a href="poem.html">Poème</a>
+                    <a href="trip.html">Voyage De Rève</a>
+                    <a href="exercices.html">Exercices D'Apprentissage</a>
                 </div>
             </div>
 
             <div class="column">
-                <h4 style="border: 10px solid saddlebrown"> Ma Première Page Index!</h4>
+                <h4 style="border: 10px solid saddlebrown; border-radius: 10px;"> Ma Première Page Index!</h4>
                 <iframe src="https://dav-g-f.github.io/indexercice.html"></iframe>
             </div>
 
             <div class="column">
-                <h4 style="border: 10px solid saddlebrown">Mon Premier Exercice!</h4>
+                <h4 style="border: 10px solid saddlebrown; border-radius: 10px;">Mon Premier Exercice!</h4>
                 <iframe src="https://dav-g-f.github.io/exercice1.html"></iframe>
             </div>
         </div>
