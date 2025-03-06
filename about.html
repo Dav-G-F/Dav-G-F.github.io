@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8"> <!-- Caractères spéciaux -->
+    <title>À Propos De Moi</title> <!-- Titre de l'onglet -->
+    <link rel="icon" type="image/x-icon" href="https://banner2.cleanpng.com/20190125/wpj/kisspng-computer-icons-html5-scalable-vector-graphics-port-socialpack-chocolate-icon-1713904721396.webp"> <!-- ajout css integrer d'image de l'onglet-->
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel&display=swap" rel="stylesheet"> <!-- Ajout css integrer pour le style de l'écriture -->
+    <style>
+        body {
+            font-family: 'Cinzel', serif;
+            color: black;
+            background-color: antiquewhite;
+            font-weight: bold;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+
+        .content-wrapper {
+            border: 10px solid saddlebrown; 
+            border-radius: 20px; 
+            padding: 20px; 
+            margin: 20px auto; 
+            max-width: 1200px; 
+            background-color: sandybrown; 
+        }
+
+        .vertical-menu {
+            width: 150px;
+            font-family: 'Cinzel', serif;
+            border: 10px solid saddlebrown;
+            border-radius: 10px;
+            margin: 20px auto;
+        }
+
+        .vertical-menu a {
+            font-family: 'Cinzel', serif;
+            background-color: bisque;
+            color: black;
+            display: block;
+            padding: 20px;
+            text-decoration: none;
+            width: 100%;
+            transition: transform 0.3s ease, filter 0.3s ease;
+        }
+
+        .vertical-menu a:hover {
+            background-color: burlywood;
+            transform: scale(1.05);
+        }
+
+        .container {
+            display: flex;
+            justify-content: space-between;
+            gap: 20px;
+            padding: 0 20px;
+            margin-top: 30px;
+        }
+        
+        .image {
+            width: 100%;
+            max-width: 400px;
+            height: 225px;
+            border: 10px solid saddlebrown;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            transition: transform 0.3s ease, filter 0.3s ease;
+        }
+        .image:hover {
+          transform: scale(1.05);
+          filter: brightness(90%);
+        }
+
+        .column {
+            flex: 1;
+            min-width: 200px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 style="border: 10px solid saddlebrown; border-radius: 20px;">À Propos De Moi</h1>
+    
+    
+    <div class="content-wrapper">
+        <div class="container">
+            <div class="column">
+                <div class="vertical-menu">
+                    <a href="index.html">Index</a>
+                    <a href="poem.html">Poème</a>
+                    <a href="trip.html">Voyage De Rève</a>
+                    <a href="exercices.html">Exercices D'Apprentissage</a>
+                </div>
+            </div>
+
+            <div class="column">
+                <h4 style="border: 10px solid saddlebrown; border-radius: 10px;"> À Propos De Moi</h4>
+                <a href="index.html" ><img class=image src=https://thumbs.dreamstime.com/b/golden-treble-clef-music-notes-yellow-brown-background-338272374.jpg alt="" width="400px" height="225px"></a>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
