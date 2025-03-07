@@ -1,0 +1,81 @@
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: 'Cinzel', serif;
+  color: black;
+  background-color: antiquewhite;
+  font-weight: bold;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  }
+.info-click {
+  width: 150px;
+  height: 50px;
+  font-family: 'Cinzel', serif;
+  border: 10px solid saddlebrown;
+  border-radius: 50px;
+  position: fixed; 
+  top: 50px; 
+  left: 100px; 
+  z-index: 1000; 
+  background-color: burlywood;
+  text-align: left;
+  display: flex;
+}
+.content-wrapper {
+  border: 10px solid saddlebrown; 
+  border-radius: 20px; 
+  padding: 20px; 
+  margin: 20px auto; 
+  max-width: 1200px; 
+  background-color: sandybrown; 
+  }
+.vertical-menu {
+  width: 150px;
+  font-family: 'Cinzel', serif;
+  border: 10px solid saddlebrown;
+  border-radius: 10px;
+  position: fixed; 
+  top: 200px; 
+  left: 100px; 
+  z-index: 1000; 
+}
+.vertical-menu a {
+  font-family: 'Cinzel', serif;
+  background-color: bisque;
+  color: black;
+  display: block;
+  padding: 20px;
+  text-decoration: none;
+  width: 100%;
+  transition: transform 0.3s ease, filter 0.3s ease;
+}
+.vertical-menu a:hover {
+  background-color: burlywood;
+  transform: scale(1.05);
+}
+.container {
+  display: flex;
+  padding: 0 20px;
+  margin-top: 30px;
+}
+.column {
+  flex: 1;
+  min-width: 200px;
+}
+.haut {
+  width: 50px;
+  height: 100px;
+  font-family: 'Cinzel', serif;
+  border: 10px solid saddlebrown;
+  border-radius: 50px;
+  position: fixed; 
+  bottom: 50px; 
+  left: 150px; 
+  z-index: 1000; 
+  background-color: burlywood;
+  text-align: left;
+  display: flex;
+}
