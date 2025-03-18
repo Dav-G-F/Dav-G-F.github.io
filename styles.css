@@ -1,6 +1,8 @@
+/* quand on selectionne sur les liens internes, la page déscend/monte lentement "smooth" */
 html {
   scroll-behavior: smooth;
 }
+/* Quand j'écrit dans le "body" du code, le text suit les critères suivants: */
 body {
   font-family: 'Cinzel', serif;
   color: black;
@@ -10,6 +12,8 @@ body {
   margin: 0;
   padding: 0;
   }
+/* Quand le div class=info-click: Les critères suivants sont appliquées */
+/*  le code suivant correspond aux styles css de l'image en haut à gauche avec moi et mon nom */
 .info-click {
   width: 150px;
   height: 50px;
@@ -24,6 +28,7 @@ body {
   text-align: left;
   display: flex;
 }
+/*  Quand je veut mettre le "border" sur mes zones de text */
 .content-wrapper {
   border: 10px solid saddlebrown; 
   border-radius: 20px; 
@@ -32,6 +37,7 @@ body {
   max-width: 1200px; 
   background-color: sandybrown; 
   }
+  /*  Les styles css pour mon menu avec les pages (Pour l'écriture) */
 .vertical-menu {
   width: 150px;
   font-family: 'Cinzel', serif;
@@ -42,6 +48,7 @@ body {
   left: 100px; 
   z-index: 1000; 
 }
+/* Les éléments "a" dedans mon menu  */
 .vertical-menu a {
   font-family: 'Cinzel', serif;
   background-color: bisque;
@@ -52,30 +59,31 @@ body {
   width: 100%;
   transition: transform 0.3s ease, filter 0.3s ease;
 }
+/* Lorsque la souris est sur les "a" dans mon menu  */
 .vertical-menu a:hover {
   background-color: burlywood;
   transform: scale(1.05);
 }
+/*  Les styles des zonesde texte/images */
 .container {
   display: flex;
   padding: 0 20px;
   margin-top: 30px;
 }
+/* Les tailles et dimensions flexibles pour inclure plus d'info dans une rangé  */
 .column {
   flex: 1;
   min-width: 200px;
 }
+/* Détermine où la flèche en bas de retour en haut se positionne ainsi que les styles  */
 .haut {
   width: 50px;
   height: 50px;
-  font-family: 'Cinzel', serif;
   border: 10px solid saddlebrown;
   border-radius: 50px;
   position: fixed; 
   bottom: 25px; 
   left: 150px; 
   z-index: 1000; 
-  background-color: burlywood;
   text-align: left;
-  display: flex;
 }
