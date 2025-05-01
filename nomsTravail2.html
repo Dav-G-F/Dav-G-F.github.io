@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Travail 2</title>
+</head>
+<body>
+    <h1>Travail 2 - Noms</h1>
+    <label for="noms">Noms :</label>
+    <input type="text" id="noms">
+    <br><br>
+    
+    <input type = "button" id = "btnInitiales" onClick = "initiales()" value = "Initiales">
+    
+    <script>
+        function initiales() {
+            var noms = document.getElementById("noms").value.split(" ")
+            var initiales = ""
+            for (let i = 0; i < noms.length; i++) {
+                initiales += noms[i][0].toUpperCase() + "."
+            }
+            return document.getElementById("reponse").innerHTML = initiales
+        }
+    </script>
+    <p id="reponse"></p>
+    <a href="index.html">Index</a>
+</body>
