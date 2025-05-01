@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Travail 1</title>
+</head>
+<body>
+    <h1>Travail 1 - LE MODULO %</h1>
+    <label for="num1">Nombre 1:</label>
+    <input type="text" id="num1">
+    <br><br>
+    <label for="num2">Nombre 2:</label>
+    <input type="text" id="num2">
+    <br><br>
+   
+    <input type = "button" id = "btnCalcul" onClick = "calculModulo()" value = "Calcul">
+   
+    <script>
+        function calculModulo() {
+            var num1 = document.getElementById("num1").value
+            var num2 = document.getElementById("num2").value
+            return document.getElementById("reponse").innerHTML = num1 + " % " + num2 + " = " + num1%num2
+        }
+    </script>
+    <p id="reponse"></p>
+</body>
